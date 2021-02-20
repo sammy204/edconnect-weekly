@@ -28,39 +28,55 @@
             </ul>
         </section>
         <section>
-            <h2>Update Profile</h2><form>
-                <br><label for="firstName">FirstName:</label>
-         <input type="text" name="firstName"></form></br>
-         <br><form>
-          <label for="LastName">LastName:</label>
-          <input type="text" name="lastname">
-          </form></br>
-         <br> <form>
-         <label for="Email Address">Email Address:</label>
-         <input type="email" name="email"></form></br>
-         <br><form>
-          <label for="Matric Number">Matric Number:</label>
-          <input type="text" name="matricnumber"></form></br>
-           <br><form>
-               <label for="Program">Program:</label><select type="dropdown">
-               <option value="computer science">Computer Science:</option>
-           </select></br></form>
-           <br><form>
-           <label for="Graduation Year">Graduation Year:</label><select type="dropdown"></br>
-            <br><option value="graduationYear">2019</option>
-        </select></br></form>
+            <h2>Update Profile</h2>
+    <form>
+            <br>
+        <label for="firstName">FirstName:
+            <input type="text" name="firstName" id="firstName" required></br>
+        </label>
+            <br>
+        <label for="lastName">LastName:
+            <input type="text" name="lastname" id="lastName" required></br>
+        </label>
+         <br> 
+        <label for="email">Email Address:
+            <input type="email" name="email" id="email" required></br>
+        </label>
+         <br>
+        <label for="matricNumber">Matric Number:
+          <input type="text" name="matricNumber" id="matricNumber" required></form></br>
+        </label>
+           <br>
+        <label for="program">Program:
+            <select type="dropdown" name="program" id="program">
+            <option value="computerscience">Computer Science:</option>
+           </select></br>
+        </label>
+           <br>
+        <label for="graduationYear">Graduation Year:
+            <select type="dropdown" name="graduationYear" id="graduationYear">
+            <option value="graduationYear">2019</option>
+            </select></br>
+        </label>
         <br><input type="submit"></br>
     </form>
         </section>
         <section>
-            <h2>Change Password</h2>
-            <form><br>
-                <label for="Current Password">Current Password:</label><input type="password" name="currentpassword"/></br></form>
-            <form><br>
-                <label for="New Password">New Password:</label><input type="password" name="newPassword"/></br></form>
-            <form><br> 
-                <label for="Confirm Password">Confirm Password</label><input type="password" name="confirmPassword"/></br></form>
+        <h2>Change Password</h2>
+            <br>
+        <label for="currentPassword">Current password:
+            <input type="password" name="currentpassword" id="currentPassword" required></br>
+        </label>
+            <br>
+        <label for="newPassword">New Password:
+            <input type="password" name="newPassword" id="newPassword" required></br>
+        </label>
+            <br> 
+        <label for="confirmPassword">Confirm password:
+            <input type="password" name="confirmPassword" id="confirmPassword" required></br>
+        </label>
             <br><input type="submit"></br>
+    </form>
 
         </section>
     </main>

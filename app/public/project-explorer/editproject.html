@@ -28,23 +28,27 @@
             </section>
             <section>
                 <h2><p>Edit Project</p></h2>
-                <form>
-                    <label for="Project Name">Project Name:</label>
-                    <br><input type="text" name="name"/></br>
+            <form name="editProject">
+                <label for="name">Project Name:
+                    <br><input type="text" name="name" id="name" required></br>
+                </label>
             
-                <label for="Project Abstract">Project Abstract:</label>
-                    <br><textarea name="abstract"></textarea></br>
+                <label for="abstract">Project Abstract:
+                    <br><textarea type="text" name="abstract" id="abstract" required></textarea></br>
+                </label>
                 
-                <label for="Authors">Authors:</label>
-                    <br><input type="text" name="authors"/></br>
+                <label for="authors">Authors:
+                    <br><input type="text" name="authors" id="authors" required></br>
+                </label>
                 
-                <label for="Tag(s)">Tag(s):</label>
-                    <br><input type="text" name="tags"/></br>
+                <label for="tags">Tag(s):
+                    <br><input type="text" name="tags" id="tags" required></br>
+                </label>
                 
-                <label for="Upload File">Upload File:</label>
-                    <br><input type="file" name="projectFile"/></br>
-                </p>
-                <br><input type="submit"/>
+                <label for="projectFile">Upload File:
+                    <br><input type="file" name="projectFile" id="projectFile" required></br>
+                </label>
+                <br><input type="submit"/></br>
                 </form>
             </section>
             

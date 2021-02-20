@@ -15,24 +15,31 @@
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
             <a href="createproject.html">Submit</a>
-        
-    </nav>
+        </nav>
         <main>
-           <h2>Submit Project</h2>
-           <form name="submitProject">
-           <p><label for="Project Name">Project Name:</label>
-               <br><input type="text" name="name"/></br>
-           </p>
-           <p><label for="Project Abstract">Project Abstract:</label>
-               <br><textarea type="text" name="abstract"></textarea></br>
-           </p>
-           <p><label for="Authors">Authors:</label>
-               <br><input type="text" name="authors"/></br>
-           </p>
-           <p><labels for="Tag(s)">Tag(s):</labels>
-               <br><input type="text" name="tags"/></br>
-           </p>
-           <br><input type="submit"/></br>
+            <h2>Submit Project</h2>
+            <form name="submitProject">
+                <p>
+                    <label for="name">Project Name:
+                        <input type="text" name="name" id="name" required/>
+                    </label>
+                </p>
+                <p>
+                    <label for="abstract">Project Abstract:
+                        <textarea type="text" name="abstract" id="abstract" required></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label for="authors">Authors:
+                        <input type="text" name="authors" id="authors" required/>
+                    </label>
+                </p>
+                <p>
+                    <label for="tags">Tag(s):
+                        <input type="text" name="tags" id="tags" required/>
+                    </label>
+                </p>
+                <br><input type="submit"/></br>
            </form>
         </main>
     </body>
