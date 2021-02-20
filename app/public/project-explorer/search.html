@@ -21,11 +21,16 @@
             <section>
                 <h2>Search Project by</h2>
                <p><br><input type="text" name="searchTerm" placeholder="project name,Authora,Absract,Tags"/></br></p>
-               <p> Search By:
-                 <br><select type="dropdown" name="searchType">
+
+                 <form name="searchForm"><br>
+                    <label for="Search By">Search By:</label>
+                    <br><select type="dropdown" name="searchType"></br>
                      <option value="Name">Name</option>
-                 </select> </p>
-                 <br><input type="button" name="search" value="search"/></br>
+                     <option value="Name">Abstract</option>
+                     <option value="Name">Authors</option>
+                     <option value="Name">Tags</option>
+                 </select> </form></br>
+             <form><br><input type="submit"  value="search"/></br></form>
             </section>
 
             <section>
@@ -37,7 +42,7 @@
                    <li>Program:Computer Science</li>
                    <li>Authors:John Doe,Jane Doe</li>
                    <li>Tags: #Asphyxia,#gsw</li>
-                   <li>Year:2019</li>
+                   
                </ul>
             </section>
         </main>
