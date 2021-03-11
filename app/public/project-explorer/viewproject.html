@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">   
+           <div class="input-group">
+                <a class="navbar-brand" href="index.html">Project Explorer</a>
+                <form class="form-inline" name="searchForm">
+                    <input type="search" class="form-control mx-3" placeholder="Search Projects" />
+                    <a href="search.html" type="submit"class="btn btn-outline-light">search</a>
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="createproject.html">Submit</a>
+                    </li>
+                    </ul>
+                </form>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="container" >
+                <div class="row m-4">
+                    <div class="col-md-12">
+                        <h3>
+                            Profile 1
+                        </h3>
+                    </div>
+                </div>
+                <div class="row bg-light text-dark m-4">
+                    <div class="col-sm">
+                        Created by:<br>jane doe</br>
+                    </div>
+                    <div class="col-sm">
+                        Date Created:<br>10/03/2020</br>
+                    </div>
+                    <div class="col-sm">
+                        Last Updated:<br>10/03/2021</br>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row m-4">
+                    <div class="col-6">
+                        <div class="border-bottom mb-3">
+                            <h3>Project Abstract</h3>
+                        </div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis voluptatum consequatur quis, tempora aliquam odit maxime aut alias veritatis, quam enim facere dolorum aliquid perspiciatis odio! Repellendus, dolores petit alcoundasu dilois ipsum durvc.
+                        <div class="form-group">
+                            <label for="comment" class="form-label"><h4>Comment:</h4></label>
+                            <textarea class="form-control" id="comment" placeholder="Leave a comment"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <hr />
+                   <div class="text-center">No comment added yet</div> 
+                </div>
+                <div class="col-6">
+                    <div class="mb-3 border-bottom">
+                        <h2>Project Details</h2>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">
+                           <div class="text-left"><h6>Author(s)</h6></div> 
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text text-left">Jane Doe</p>
+                        </div>
+                        <div class="card-footer text-left">
+                            <a href="#">#bootstrap</a>
+                        </div>
+                      </div>
+                    <hr />
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Project Files</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">No file uploaded yet</p>
+                        </div>
+                    </div>
+                        
+                </div> 
+            </div>
+            <footer class="text-center" >
+                <div class="text-right" >
+                    Project Explorer © 2020 Copyright:
+                    <a class="text-dark" href="https://Edconnect.ng/">Edconnect</a>
+                </div>
+            </footer>       
+        </main>
+    </body>
+</html>
