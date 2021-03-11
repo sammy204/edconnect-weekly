@@ -37,17 +37,19 @@
                     </div>
                 </div>
                 <div class="row bg-light text-dark m-4">
-                    <div class="col-sm">
+                    <div class="col">
                         Created by:<br>jane doe</br>
                     </div>
-                    <div class="col-sm">
+                    <div class="col">
                         Date Created:<br>10/03/2020</br>
                     </div>
-                    <div class="col-sm">
+                    <div class="col">
                         Last Updated:<br>10/03/2021</br>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <a href="viewproject.html" type="submit" class="btn btn-primary">View Project</a>
+                    <div class="col">
+                        <div class="d-flex justify-content-end">
+                            <a href="viewproject.html" type="submit" class="btn btn-primary">View Project</a>
+                        </div>
                     </div>
                     
                 </div>
@@ -59,21 +61,29 @@
                             <h2>Edit Project</h2>
                         </div>
                         <form>
-                            <div class="form-group ">
-                                <label for="project_name" class="form-label">Project Name:</label>
-                                <input type="text" class="form-control" id="project_name"name="name" placeholder="project 1" required>
+                            <div class="col">
+                                <div class="form-group ">
+                                    <label for="project_name" class="form-label">Project Name:</label>
+                                    <input type="text" class="form-control" id="project_name"name="name" placeholder="project 1" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="project_abstract" class="form-label">Project Abstract:</label>
-                                <textarea class="form-control" id="project_abstract" name="abstract" placeholder="project 1 is a very interesting project"></textarea>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="project_abstract" class="form-label">Project Abstract:</label>
+                                    <textarea class="form-control" id="project_abstract" name="abstract" placeholder="project 1 is a very interesting project"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="author" class="form-label">Author(s):</label>
-                                <input type="text" class="form-control" id="author" name="authors" placeholder="jane doe" required>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="author" class="form-label">Author(s):</label>
+                                    <input type="text" class="form-control" id="author" name="authors" placeholder="jane doe" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="tag" class="form-label">Tag(s):</label>
-                                <input type="text" class="form-control" id="tag" name="tags" placeholder="#web" required>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="tag" class="form-label">Tag(s):</label>
+                                    <input type="text" class="form-control" id="tag" name="tags" placeholder="#web" required>
+                                </div>
                             </div>
                         </form>
                         <button type="button" class="btn btn-primary">Save</button>
