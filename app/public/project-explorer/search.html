@@ -40,21 +40,23 @@
             <div class="p-3 mb-2 bg-light text-dark">
                 <form>
                     <div class="form-row">
-                        <div class="form-group col-sm-8">
-                            <input type="text" class="form-control" id="" placeholder="project name,Authora,Absract,Tags" name="searchTerm" required>
+                        <div class="form-group col-sm">
+                            <input class="form-control form-control-lg" id="" placeholder="project name,Authora,Absract,Tags" name="searchTerm" required>
                         </div>
                 </form>
                             SearchBy:
-                        <form>
-                            <form name="searchForm">
+                    <form>
+                        <form name="searchForm">
+                            <div class="form-group col-sm">
                                 <select id="searchForm" class="form-control" name="searchType" required>
                                     <option selected>Name</option>
                                     <option>Abstract</option>
                                     <option>Authors</option>
                                     <option>Tags</option>
                                 </select>
-                            </form>
+                            </div>
                         </form>
+                    </form>
                             <button type="submit" class="btn btn-lg btn-primary">Submit</button>
                     </div>
                 </div>
