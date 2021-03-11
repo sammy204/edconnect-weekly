@@ -61,19 +61,19 @@
                         <form>
                             <div class="form-group ">
                                 <label for="project_name" class="form-label">Project Name:</label>
-                                <input type="text" class="form-control" id="project_name" placeholder="project 1" required>
+                                <input type="text" class="form-control" id="project_name"name="name" placeholder="project 1" required>
                             </div>
                             <div class="form-group">
                                 <label for="project_abstract" class="form-label">Project Abstract:</label>
-                                <textarea class="form-control" id="project_abstract" placeholder="project 1 is a very interesting project"></textarea>
+                                <textarea class="form-control" id="project_abstract" name="abstract" placeholder="project 1 is a very interesting project"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="author" class="form-label">Author(s):</label>
-                                <input type="text" class="form-control" id="author" placeholder="jane doe" required>
+                                <input type="text" class="form-control" id="author" name="authors" placeholder="jane doe" required>
                             </div>
                             <div class="form-group">
                                 <label for="tag" class="form-label">Tag(s):</label>
-                                <input type="text" class="form-control" id="tag" placeholder="#web" required>
+                                <input type="text" class="form-control" id="tag" name="tags" placeholder="#web" required>
                             </div>
                         </form>
                         <button type="button" class="btn btn-primary">Save</button>
@@ -83,7 +83,7 @@
                             <h2>Manage Project files</h2>
                         </div>
                         <div class="custom-file mb-3">
-                            <input type="file" class="custom-file-input" id="customFile" name="filename">
+                            <input type="file" class="custom-file-input" id="customFile" name="projectFile">
                             <label class="custom-file-label" for="customFile">Click to open file browser</label>
                         </div>
                         <hr />
